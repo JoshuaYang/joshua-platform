@@ -51,12 +51,12 @@ module.exports = {
                 },
             },
         }),
-        // new webpack.optimize.UglifyJsPlugin({
-        //     sourceMap: true,
-        //     compress: {
-        //         warnings: false,
-        //         drop_console: true,
-        //     },
-        // }),
+        new webpack.optimize.UglifyJsPlugin({
+            sourceMap: true,
+            compress: {
+                warnings: false,
+                drop_console: true,
+            },
+        }),
     ],
 };

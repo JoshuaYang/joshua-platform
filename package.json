@@ -2,7 +2,7 @@
   "name": "joshua-platform",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "bundle": "webpack --progress --config ./conf/webpack.bundle.config.js",
     "check": "ncu",
