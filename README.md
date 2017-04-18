@@ -29,7 +29,7 @@ if not match the platform, will return `false`, and add the class name `not-{cla
 ### js
 
 ```javascript
-import Platform from 'Platform';
+import Platform from 'joshua-platform';
 
 if(Platform.isIE) {
   // do something on IE
