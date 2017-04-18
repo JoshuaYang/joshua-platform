@@ -1,6 +1,6 @@
 {
   "name": "joshua-platform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "build/index.js",
   "scripts": {
@@ -27,6 +27,5 @@
     "webpack": "^2.2.1",
     "webpack-merge": "^3.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
