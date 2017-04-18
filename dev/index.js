@@ -48,4 +48,4 @@ for (const key of Object.keys(Component)) {
 }
 
 
-module.exports = Component;
+export default Component;
