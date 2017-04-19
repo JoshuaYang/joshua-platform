@@ -9,8 +9,15 @@
     "update-json": "ncu -a",
     "update-package": "npm update"
   },
-  "author": "",
+  "keywords": [
+    "platform"
+  ],
+  "author": "Joshua Yang",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoshuaYang/joshua-platform"
+  },
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-eslint": "^7.1.1",
