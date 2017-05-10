@@ -45,6 +45,7 @@ for (const key of Object.keys(Component)) {
     }
 
     html.classList.add(className);
+    html.setAttribute(className, '');
 }
 
 
